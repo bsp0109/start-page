@@ -1,0 +1,128 @@
+@import url(../media/sourcecodepro/stylesheet.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Source Code Pro Regular", monospace;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color: #b8bb26;
+    font-family: "Source Code Pro Black", monospace;
+    font-size: 2em;
+}
+
+h2 {
+    color: #8ec07c;
+    font-family: "Source Code Pro Bold", monospace;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #d5c4a1;
+}
+
+a:hover {
+    color: #b8bb26;
+}
+
+hr {
+    border: 1px solid #b8bb26;
+    margin-bottom: 0.5em;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+    background: linear-gradient(45deg, #b8bb26, #8ec07c);
+    overflow: hidden;
+}
+
+.circle {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.circle1 {
+    top: 15%;
+    left: 75%;
+    background: linear-gradient(to right bottom, #fb4934, #d3869b);
+}
+
+.circle2 {
+    top: 25%;
+    left: 15%;
+    background: linear-gradient(to left top, #83a598, #8ec07c);
+}
+
+.circle3 {
+    top: 73%;
+    left: 73%;
+    background: linear-gradient(to left top, #fabd2f, #b8bb26);
+}
+
+.circle4 {
+    top: 60%;
+    left: 5%;
+    background: linear-gradient(to right bottom, #83a598, #d3869b);
+}
+
+.maincard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 1vw;
+    padding: 2em;
+    background-color: #32302f;
+    color: #d5c4a1;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.greeting h2{
+    font-size: 0.8em;
+    color: #d5c4a1;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 5%;
+    min-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.links div {
+    text-align: left;
+}
+
+.links h2 {
+    color: #83a598;
+}
