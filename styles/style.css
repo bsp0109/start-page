@@ -126,3 +126,18 @@ main {
 .links h2 {
     color: #83a598;
 }
+
+
+@media (max-width:720px) {
+    .maincard {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .links {
+        grid-template: auto auto / auto auto;
+        grid-row-gap: 5%;
+        min-height: 60%;
+    }
+}
