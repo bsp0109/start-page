@@ -127,7 +127,6 @@ main {
     color: #83a598;
 }
 
-
 @media (max-width:720px) {
     .maincard {
         width: 100vw;
